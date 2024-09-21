@@ -118,15 +118,19 @@ body {
   color: var(--white_color);
   line-height: 28px;
 }
+.BuildingPartBtn {
+  margin-top: 48px;
+}
 .BuildingPart--Button1 {
   background-color: var(--yellow_color);
   color: var(--black_color);
 }
-.BuildingPart--Button2{
+.BuildingPart--Button2 {
   background-color: transparent;
   border: none;
 }
-.BuildingPart--Button2:hover{
-  
+.BuildingPart--Button2:hover {
+  background-color: transparent;
+  color: var(--white_color);
 }
 /* ================ Building Css ================ */
