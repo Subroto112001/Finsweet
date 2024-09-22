@@ -159,7 +159,7 @@ body {
   font-weight: 500;
   color: #2405f2;
 }
-.WorkpartRight{
+.WorkpartRight {
   margin-left: 142px;
 }
 .WorkPartRightBoxItem {
@@ -179,3 +179,88 @@ body {
   color: var(--black_color);
 }
 /* ================ Work Css ================ */
+/* ================ View Css ================ */
+#View {
+  padding: 128px 0;
+  background-color: var(--white_color);
+}
+.ViewPartHeading_Title {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--black_color);
+}
+.ViewPartHeading__ViewMore {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black_color);
+}
+.ViewPartLeftRightWrapper {
+  margin-top: 64px;
+}
+
+.ViewPartLeft {
+  position: relative;
+}
+.ViewPartLeftOverlayer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 396px;
+  background-image: linear-gradient(rgb(28, 30, 83), rgb(28, 30, 83, 42%));
+}
+.ViewPartLeftOverlayerWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 312px;
+  margin-left: 48px;
+}
+.ViewPartLeftOverlayer__Heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--white_color);
+  line-height: 36px;
+}
+.ViewPartLeftOverlayer__summary {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white_color);
+  line-height: 28px;
+}
+.ViewPartLeftOverlayer__link {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--yellow_color);
+}
+.ViewPartRightOverlayerWrapper{
+margin-top: 129px;
+margin-left: 56px;
+row-gap: 10px;
+}
+.ViewPartRightWebsite {
+  position: relative;
+  width: 405px;
+  height: 284px;
+}
+.ViewPartRightWebsiteOverlayer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgb(28, 30, 83), rgb(28, 30, 83, 42%));
+}
+.ViewPartRightWebsiteOverlayer__Header{
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--white_color);
+  line-height: 36px;
+  width: 235px;
+}
+.ViewPartRightWebsiteOverlayer__link{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--yellow_color);
+}
+/* ================ View Css ================ */
