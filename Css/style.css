@@ -134,3 +134,48 @@ body {
   color: var(--white_color);
 }
 /* ================ Building Css ================ */
+/* ================ Work Css ================ */
+#Work {
+  background-color: var(--secondary_Background_color);
+  padding: 128px 0;
+}
+.WorkPartLeft {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.WorkPartLeft__Heading {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--black_color);
+}
+.WorkPartLeft__summery {
+  font-size: 16px;
+  font-weight: 400;
+  color: #282938;
+}
+.WorkPartLeft__link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2405f2;
+}
+.WorkpartRight{
+  margin-left: 142px;
+}
+.WorkPartRightBoxItem {
+  display: flex;
+  flex-direction: column;
+}
+.WorkPartRightBoxItem__Heading {
+  margin-top: 16px;
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--black_color);
+}
+.WorkPartRightBoxItem__Summary {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black_color);
+}
+/* ================ Work Css ================ */
