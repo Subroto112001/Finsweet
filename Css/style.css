@@ -370,3 +370,31 @@ body {
   color: var(--black_color);
 }
 /* ================ SolvesProblem Css ================ */
+/* =========== ClientSays CSS =========== */
+#ClientSays {
+  background-color: var(--secondary_Background_color);
+  padding: 128px 0;
+}
+.ClientSays{
+  justify-content: space-between;
+}
+.ClientSaysLeft__title {
+  font-size: 38px;
+  font-weight: 600;
+  color: var(--black_color);
+  line-height: 56px;
+}
+.ClientSaysLeft__SubTitle {
+  margin-top: 16px;
+  font-size: 16ppx;
+  font-weight: 400;
+  color: var(--black_color);
+  line-height: 28px;
+}
+.ClientSaysRight__Title {
+  font-size: 32px;
+  font-weight: 500;
+  column-rule-color: var(--black_color);
+  line-height: 48px;
+}
+/* =========== ClientSays CSS =========== */
