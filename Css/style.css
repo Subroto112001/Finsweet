@@ -294,9 +294,43 @@ body {
 .ViewPartWorkhub {
   position: relative;
 }
-.ViewPartWorkhubOverlayer {
+/* .ViewPartWorkhubOverlayer {
   background-image: linear-gradient(#1c1e53, rgb(28, 30, 83, 42%));
   width: 100%;
+} */
+.ViewPartWorkhub__Overlayer {
+  position: absolute;
+  background-image: linear-gradient(#1c1e53, rgb(28, 30, 83, 42%));
+  height: 100%;
+  width: 395px;
+  top: 0;
+  left: 0;
+}
+
+.ViewPartRightWebsite {
+  position: relative;
+}
+.ViewPartRightWebsiteOverlayer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-image: linear-gradient(#1c1e53, rgb(28, 30, 83, 42%));
+  height: 100%;
+  width: 100%;
+}
+.ViewPartRightWebsiteOverlayer__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: var(--white_color);
+}
+.ViewPartRightWebsiteOverlayer__link {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--yellow_color);
+}
+.ViewPartRightJoinCurch {
+  margin-top: 32px;
 }
 /* ================ View Css2 ================ */
 /* ================ SolvesProblem Css ================ */
@@ -313,7 +347,7 @@ body {
 .SolvesProblemHeader__Title {
   font-size: 48px;
   font-weight: 600;
-  max-width: 630px;
+  max-width: 650px;
   line-height: 64px;
   color: var(--black_color);
 }
