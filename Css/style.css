@@ -179,103 +179,7 @@ body {
   color: var(--black_color);
 }
 /* ================ Work Css ================ */
-/* ================ View Css ================ */
-/* #View {
-  padding: 128px 0;
-  background-color: var(--white_color);
-} */
-/* .ViewPartHeading_Title {
-  font-size: 48px;
-  font-weight: 600;
-  color: var(--black_color);
-} */
-/* .ViewPartHeading__ViewMore {
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--black_color);
-} */
-/* .ViewPartLeftRightWrapper {
-  margin-top: 64px;
-} */
 
-/* .ViewPartLeft {
-  position: relative;
-} */
-/* .ViewPartLeftOverlayer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  width: 396px;
-  background-image: linear-gradient(rgb(28, 30, 83), rgb(28, 30, 83, 42%));
-} */
-/* .ViewPartLeftOverlayerWrapper {
-  display: flex;
-  flex-direction: column;
-  margin-top: 312px;
-  margin-left: 48px;
-} */
-/* .ViewPartLeftOverlayer__Heading {
-  font-size: 24px;
-  font-weight: 600;
-  color: var(--white_color);
-  line-height: 36px;
-} */
-/* .ViewPartLeftOverlayer__summary {
-  margin-top: 16px;
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--white_color);
-  line-height: 28px;
-} */
-/* .ViewPartLeftOverlayer__link {
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--yellow_color);
-} */
-/* .ViewPartRightOverlayerWrapper {
-  margin-top: 129px;
-  margin-left: 56px;
-  row-gap: 10px;
-} */
-/* .ViewPartRight{
-  position: relative;
-} */
-/* .ViewPartRightWrapper {
-  position: relative;
-  height: 268px;
-} */
-/* .ViewPartRightWebsite {
-  position: absolute;
-  top: -16px;
-  left: 0;
-  width: 405px;
-  height: 284px;
-} */
-/* .ViewPartRightWebsiteOverlayer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(rgb(28, 30, 83), rgb(28, 30, 83, 42%));
-} */
-/* .ViewPartRightWebsiteOverlayer__Header {
-  font-size: 24px;
-  font-weight: 600;
-  color: var(--white_color);
-  line-height: 36px;
-  width: 235px;
-} */
-/* .ViewPartRightWebsiteOverlayer__link {
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--yellow_color);
-} */
-/* .ViewPartRightJoinCurch {
-  margin-top: 48px;
-} */
-/* ================ View Css ================ */
 /* ================ View Css2 ================ */
 #View {
   padding: 128px 0;
@@ -298,13 +202,42 @@ body {
   background-image: linear-gradient(#1c1e53, rgb(28, 30, 83, 42%));
   width: 100%;
 } */
-.ViewPartWorkhub__Overlayer {
+.ViewPartWorkhubOverlayer {
   position: absolute;
   background-image: linear-gradient(#1c1e53, rgb(28, 30, 83, 42%));
   height: 100%;
-  width: 395px;
+  width: 46%;
   top: 0;
   left: 0;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: start;
+}
+.ViewPartWorkhubOverlayerWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 76px;
+}
+.ViewPartWorkhubOverlayer__Title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--white_color);
+  line-height: 36px;
+}
+.ViewPartWorkhubOverlayer__Summary {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--white_color);
+}
+.ViewPartWorkhubOverlayer__link {
+  margin-top: 40px;
+  color: var(--yellow_color);
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .ViewPartRightWebsite {
@@ -319,6 +252,7 @@ body {
   width: 100%;
 }
 .ViewPartRightWebsiteOverlayer__title {
+  padding: 0 84px 0 0;
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
@@ -369,13 +303,14 @@ body {
   font-weight: 400;
   color: var(--black_color);
 }
+
 /* ================ SolvesProblem Css ================ */
 /* =========== ClientSays CSS =========== */
 #ClientSays {
   background-color: var(--secondary_Background_color);
   padding: 128px 0;
 }
-.ClientSays{
+.ClientSays {
   justify-content: space-between;
 }
 .ClientSaysLeft__title {
@@ -397,4 +332,5 @@ body {
   column-rule-color: var(--black_color);
   line-height: 48px;
 }
+
 /* =========== ClientSays CSS =========== */
